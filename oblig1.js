@@ -14,7 +14,7 @@ function isDateValid(dateString) {
         isSetupCorrect(dateNumber) &&
         isYearCorrect(year) &&
         isMonthCorrect(month) &&
-        isDayCorrect(day, month, leapYear);
+        isDayCorrect(day, month, year);
 
 
 
